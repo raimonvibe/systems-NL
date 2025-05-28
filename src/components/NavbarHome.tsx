@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import cover from "../../public/images/cover.webp";
+import cover from "../../public/images/cover-nl.webp";
 import Dropdown11 from './Dropdown11';
 
 interface NavLink {
@@ -13,27 +13,26 @@ interface NavLink {
 }
 
 const NavbarHome: React.FC = () => {
-  const navLinks: NavLink[] = [
+const navLinks: NavLink[] = [
     { href: "/", label: "Home" },
-    // { href: "https://raimonvibe.pythonanywhere.com/", label: "BookHub", target: "_blank" },
-    { href: "https://skills-hub.raimonvibe.com/", label: "SkillsHub", target: "_blank" },
-    { href: "https://code-review.raimonvibe.com/", label: "Code Review", target: "_blank" },
-    { href: "https://www.physics-calculator.raimonvibe.com/", label: "Snelheidsberekening", target: "_blank" },
-    { href: "https://www.physics-flashcards.raimonvibe.com/", label: "Natuurkunde Flashcards", target: "_blank" }, 
-    { href: "https://retro-monitor.raimonvibe.com/", label: "Retro Typemachine", target: "_blank" }, 
-    { href: "https://animalguesses.raimonvibe.com/", label: "Dierenraadsels", target: "_blank" }, 
-    { href: "https://www.emf-simulator.raimonvibe.com/", label: "EMK-Simulator", target: "_blank" },
-    { href: "https://tetris2.0.raimonvibe.com/", label: "Tetris 2.0", target: "_blank" }, 
-    { href: "https://periodic-table.raimonvibe.com/", label: "Periodiek Systeem", target: "_blank" }, 
-  ];
+    { href: "/Services", label: "Diensten" },
+    { href: "/Opportunities", label: "Mogelijkheden" },
+    { href: "/About", label: "Over Mij" },
+    { href: "/Clients", label: "Klanten" },
+    { href: "/ThreeDLibrary", label: "3D Bibliotheek" },
+    { href: "/Certificates", label: "Certificaten" },
+    { href: "/resume", label: "Mijn CV", target: "_blank" },
+    { href: "https://systemen.raimonvibe.nl/", label: "Systemen", target: "_blank" }, 
+    { href: "/Contact", label: "Contact" },
+];
 
   return (
-    <nav className="navbar">
-      <Link href="/" aria-label="Home">
+    <nav className="o-container">
+      <Link href="/" aria-label="Thuis">
         <Image
-          className="logo"
+          className="o-logo"
           src={cover}
-          alt="Logo of my company"
+          alt="Logo van mijn bedrijf"
           width={80}
           height={80}
           priority
@@ -46,5 +45,3 @@ const NavbarHome: React.FC = () => {
 };
 
 export default NavbarHome;
-
-

@@ -3,17 +3,19 @@
 /* Standard container with flexbox layout */
 .o-container-standard {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
   width: 80%;
   margin: 50px auto;
-  text-align: left;
+  text-align: center;
 }
 
+/* No longer needed with vertical layout
 .o-container-standard.o-container--reverse {
   flex-direction: row-reverse;
 }
+*/
 
 /* Container fluid utility */
 .u-container-fluid {

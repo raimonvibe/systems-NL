@@ -3,11 +3,11 @@
 /* Base styles for container elements */
 .o-middle-container, .o-header, .o-container {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   width: 80%;
   margin: 50px auto;
-  text-align: left;
+  text-align: center;
 }
 
 /* Clear the float behavior */
@@ -22,14 +22,16 @@
   max-width: 500px;
   display: block;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Article positioning for all screen sizes */
 article, .c-article {
-  flex: 1;
-  text-align: left;
-  margin-top: 0;
-  padding: 0 15px;
+  max-width: 500px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 0;
 }
 
 /* Maintain responsive adjustments for smaller screens */

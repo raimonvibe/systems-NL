@@ -19,23 +19,25 @@ export default function Home() {
        <main>
         <div className="o-header"></div>
 
-        <Image
-          className="o-image-standard o-image-left"
-          src={systems}
-          alt="Een rustig kantoor met een persoon die op een laptop werkt, omringd door abstracte systeemdiagrammen en een zacht, neutraal kleurenschema."
-          priority
-        />
-        <article>
-          <div>
-            <h1>Over Systems</h1>
-            <p>
-              Hallo daar! Welkom op mijn digitale speeltuin. Deze pagina is een soort verzamelpunt voor projecten waar ik aan knutsel. Ik ben echt geïnteresseerd in systemen, coderen en al dat soort dingen, dus hier laat ik die interesses de vrije loop. Zie het als een kijkje in mijn brein – een enigszins georganiseerd kijkje, tenminste.
-            </p>
-            <p>
-              Je vindt hier verschillende dingen, elk met een eigen verhaal. Het is allemaal werk in uitvoering, net als ik!
-            </p>
-          </div>
-        </article>
+        <div className="o-container-standard">
+          <Image
+            className="o-image-standard o-image-left"
+            src={systems}
+            alt="Een rustig kantoor met een persoon die op een laptop werkt, omringd door abstracte systeemdiagrammen en een zacht, neutraal kleurenschema."
+            priority
+          />
+          <article>
+            <div>
+              <h1>Over Systems</h1>
+              <p className="c-paragraph">
+                Hallo daar! Welkom op mijn digitale speeltuin. Deze pagina is een soort verzamelpunt voor projecten waar ik aan knutsel. Ik ben echt geïnteresseerd in systemen, coderen en al dat soort dingen, dus hier laat ik die interesses de vrije loop. Zie het als een kijkje in mijn brein – een enigszins georganiseerd kijkje, tenminste.
+              </p>
+              <p className="c-paragraph">
+                Je vindt hier verschillende dingen, elk met een eigen verhaal. Het is allemaal werk in uitvoering, net als ik!
+              </p>
+            </div>
+          </article>
+        </div>
 
         <div className="u-spacing"></div>
 

@@ -1,5 +1,20 @@
 /* Container utility classes */
 
+/* Standard container with flexbox layout */
+.o-container-standard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  width: 80%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.o-container-standard.o-container--reverse {
+  flex-direction: row-reverse;
+}
+
 /* Container fluid utility */
 .u-container-fluid {
   max-width: 100%;
@@ -36,6 +51,12 @@ body .container-fluid,
 }
 
 @media (max-width: 767px) {
+  .o-container-standard {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
   .u-container-fluid {
     padding: 20px;
     flex-direction: column;

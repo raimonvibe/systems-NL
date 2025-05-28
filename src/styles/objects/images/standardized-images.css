@@ -5,31 +5,25 @@
   border-radius: var(--border-radius);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   object-fit: cover;
-  max-width: 100%;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
   margin-bottom: 30px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: 400px;
-  aspect-ratio: 5/4; /* Landscape ratio */
-  order: 1; /* Images appear first in flex layout */
   transition: transform 0.3s ease;
 }
 
-/* Variants for left/right positioning */
+/* Variants for left/right positioning with flexbox */
 .o-image-left {
   composes: o-image-standard;
-  float: left;
+  align-self: flex-start;
   margin-right: 30px;
-  margin-left: 0;
 }
 
 .o-image-right {
   composes: o-image-standard;
-  float: right;
+  align-self: flex-start;
   margin-left: 30px;
-  margin-right: 0;
 }
 
 /* Certificate image standardization */
@@ -39,15 +33,13 @@
 }
 
 .o-certificate-left {
-  float: left;
+  align-self: flex-start;
   margin-right: 30px;
-  margin-left: 0;
 }
 
 .o-certificate-right {
-  float: right;
+  align-self: flex-start;
   margin-left: 30px;
-  margin-right: 0;
 }
 
 /* Model image standardization */
@@ -57,15 +49,13 @@
 }
 
 .o-model-left {
-  float: left;
+  align-self: flex-start;
   margin-right: 30px;
-  margin-left: 0;
 }
 
 .o-model-right {
-  float: right;
+  align-self: flex-start;
   margin-left: 30px;
-  margin-right: 0;
 }
 
 /* Profile image standardization */
@@ -78,41 +68,36 @@
 /* Legacy image classes for backward compatibility */
 .common-properties {
   composes: o-image-standard;
-  height: 250px;
+  height: auto;
   width: 350px;
 }
 
 .common-properties-left {
-  composes: o-image-standard;
-  float: left;
-  text-align: right;
-  margin-left: 30px;
+  composes: o-image-left;
+  align-self: flex-start;
   margin-right: 30px;
-  margin-bottom: 150px;
+  margin-bottom: 30px;
   z-index: 1;
 }
 
 .common-properties-right {
-  composes: o-image-standard;
-  float: right;
-  text-align: left;
+  composes: o-image-right;
+  align-self: flex-start;
   margin-left: 30px;
-  margin-bottom: 150px;
+  margin-bottom: 30px;
 }
 
 .common-properties-left2 {
-  composes: o-image-standard;
-  float: left;
-  height: 400px;
+  composes: o-image-left;
+  height: auto;
   width: 350px;
-  text-align: right;
   margin-right: 30px;
-  margin-bottom: 150px;
+  margin-bottom: 30px;
 }
 
 .common-properties2 {
   composes: o-image-standard;
-  height: 400px;
+  height: auto;
   width: 350px;
 }
 

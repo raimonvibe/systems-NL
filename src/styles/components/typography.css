@@ -84,6 +84,15 @@ a:hover, a:focus {
   display: inline-block;
 }
 
+/* Paragraph component */
+.c-paragraph {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-primary);
+}
+
 /* Improved text layout for iPad Pro */
 @media (min-width: 1024px) and (max-width: 1366px) {
   .c-article {

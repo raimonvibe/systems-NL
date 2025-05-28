@@ -7,7 +7,7 @@ import '../styles/globals.css';
 
 export const metadata: Metadata = {
   title: 'Home raimonvibe',
-  description: 'Discover custom-made digital artworks with Raimon, your freelance web designer and developer from West Friesland. Specialist in responsive design and master of HTML, CSS, and JavaScript. Experience a seamless digital experience, optimized for every screen - from the palm of your hand to the wide view of your desktop.',
+  description: 'Ontdek op maat gemaakte digitale kunstwerken met Raimon, uw freelance webdesigner en ontwikkelaar uit West-Friesland. Specialist in responsive design en meester in HTML, CSS en JavaScript. Ervaar een naadloze digitale ervaring, geoptimaliseerd voor elk scherm - van de palm van je hand tot het brede beeld van je desktop.',
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="nl">
       <head>
         <meta charSet="utf-8" />
         <title>Home raimonvibe</title>
@@ -29,15 +29,15 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Welcome to my digital playground. This page is kind of a hub for some of the projects I've been tinkering with. I'm really into systems, coding, and all that good stuff, so this is where I let those interests run wild. Think of it as a glimpse into my brain – a slightly organized glimpse, anyway."
+          content="Welkom op mijn digitale speeltuin. Deze pagina is een soort verzamelpunt voor projecten waar ik aan knutsel. Ik ben echt geïnteresseerd in systemen, coderen en al dat soort dingen, dus hier laat ik die interesses de vrije loop. Zie het als een kijkje in mijn brein – een enigszins georganiseerd kijkje, tenminste."
         />
         <meta
           name="keywords"
           content="web systems, open-source projects, SaaS tools, recommended tech stacks, velocity calculator, software development, system architecture, Raimon, GitHub systems, code review tools, developer resources, tech tutorials"
         />
         {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="Home - systems" />
-        <meta property="og:description" content="Systems raimonvibe" />
+        <meta property="og:title" content="Home - systemen" />
+        <meta property="og:description" content="Systemen raimonvibe" />
         <meta
           property="og:image"
           content="https://raimonvibe.com/static/media/raimon100.37739e52106e6e1f1b12.webp"
@@ -48,7 +48,7 @@ export default function RootLayout({
         <meta property="og:image:height" content="1320" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Home - raimonvibe" />
-        <meta name="twitter:description" content="Technical Researcher" />
+        <meta name="twitter:description" content="Technisch Onderzoeker" />
         <meta name="twitter:image" content="https://raimonvibe.com/static/media/raimon100.37739e52106e6e1f1b12.webp" />
         <Script defer src="/static/js/main.7acc9ab3.js" />
       </head>

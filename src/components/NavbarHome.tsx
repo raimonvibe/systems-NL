@@ -18,13 +18,13 @@ const NavbarHome: React.FC = () => {
     // { href: "https://raimonvibe.pythonanywhere.com/", label: "BookHub", target: "_blank" },
     { href: "https://skills-hub.raimonvibe.com/", label: "SkillsHub", target: "_blank" },
     { href: "https://code-review.raimonvibe.com/", label: "Code Review", target: "_blank" },
-    { href: "https://www.physics-calculator.raimonvibe.com/", label: "Velocity Calculator", target: "_blank" },
-    { href: "https://www.physics-flashcards.raimonvibe.com/", label: "Physics Flascards", target: "_blank" }, 
-    { href: "https://retro-monitor.raimonvibe.com/", label: "Retro Monitor", target: "_blank" }, 
-    { href: "https://animalguesses.raimonvibe.com/", label: "Animal Guesses", target: "_blank" }, 
-    { href: "https://www.emf-simulator.raimonvibe.com/", label: "EMF-Simulator", target: "_blank" },
+    { href: "https://www.physics-calculator.raimonvibe.com/", label: "Snelheidsberekening", target: "_blank" },
+    { href: "https://www.physics-flashcards.raimonvibe.com/", label: "Natuurkunde Flashcards", target: "_blank" }, 
+    { href: "https://retro-monitor.raimonvibe.com/", label: "Retro Typemachine", target: "_blank" }, 
+    { href: "https://animalguesses.raimonvibe.com/", label: "Dierenraadsels", target: "_blank" }, 
+    { href: "https://www.emf-simulator.raimonvibe.com/", label: "EMK-Simulator", target: "_blank" },
     { href: "https://tetris2.0.raimonvibe.com/", label: "Tetris 2.0", target: "_blank" }, 
-    { href: "https://periodic-table.raimonvibe.com/", label: "Periodic Table", target: "_blank" }, 
+    { href: "https://periodic-table.raimonvibe.com/", label: "Periodiek Systeem", target: "_blank" }, 
   ];
 
   return (

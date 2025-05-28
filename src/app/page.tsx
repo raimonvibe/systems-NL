@@ -17,8 +17,8 @@ export default function Home() {
   return (
     <div>
        <main>
-        <div className="o-header"></div>
-
+{/*         <div className="o-header"></div>
+ */}
         <div className="o-container-standard">
           <Image
             className="o-image-standard o-image-left"

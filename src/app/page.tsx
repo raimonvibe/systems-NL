@@ -1,6 +1,5 @@
 import Image from "next/image";
 import systems from "/public/images/systems.webp";
-// import books from "/public/images/books.webp";
 import review from "/public/images/review.webp";
 import stack from "/public/images/stack.webp";
 import welcome from "/public/images/welcome.webp";
@@ -44,14 +43,14 @@ export default function Home() {
         <Image
           className="common-properties common-properties-right"
           src={books}
-          alt="A minimalist workspace where a developer manages a book catalog on a web application, with bookshelves and digital elements."
+          alt="Een minimalistische werkruimte waar een ontwikkelaar een boekencatalogus beheert op een webapplicatie, met boekenplanken en digitale elementen."
         />
         <article>
           <div>
             <h1>Fullstack Books</h1>
             <p className="github">
-            This project is a web application focused on managing and displaying information about books. 
-            It's a good example of my interest in full-stack development and working with data. 
+            Dit project is een webapplicatie gericht op het beheren en weergeven van informatie over boeken. 
+            Het is een goed voorbeeld van mijn interesse in full-stack ontwikkeling en het werken met data. 
           </p>
           </div>
         </article>
@@ -101,7 +100,7 @@ export default function Home() {
           <Image
             className="common-properties common-properties-right"
             src={physics}
-            alt="A calm, minimal workspace with soft lighting, beige tones, and a sleek desk featuring a blank-screen computer, surrounded by warm decor and physics-inspired wall designs."
+            alt="Een rustige, minimale werkruimte met zachte verlichting, beige tinten en een strak bureau met een computer met een leeg scherm, omringd door warme decoratie en natuurkunde-geïnspireerde wandontwerpen."
           />
           <article>
             <h1>Snelheidsberekening</h1>
@@ -117,13 +116,13 @@ export default function Home() {
           <Image
             className="common-properties common-properties-left"
             src={flashy}
-            alt="A calm, minimalistic workspace with soft beige tones, showcasing physics-themed diagrams, organized shelves, and a clean desk with a computer displaying formulas."
+            alt="Een rustige, minimalistische werkruimte met zachte beige tinten, met natuurkunde-thema diagrammen, georganiseerde planken en een schoon bureau met een computer die formules weergeeft."
        />
             <article>
             <div>
               <h1>Natuurkunde Formules Flashcards</h1>
               <p className="github">
-              In this project, Physics Formulas Cheat Sheet, I’ve created a handy reference guide packed with essential physics formulas that are useful for students, engineers, and anyone interested in physics. The formulas are neatly categorized and presented using LaTeX, making them clear and easy to use for solving a variety of physics problems.
+              In dit project, Natuurkunde Formules Spiekbriefje, heb ik een handig naslagwerk gemaakt vol met essentiële natuurkundeformules die nuttig zijn voor studenten, ingenieurs en iedereen die geïnteresseerd is in natuurkunde. De formules zijn netjes gecategoriseerd en gepresenteerd met behulp van LaTeX, waardoor ze duidelijk en gemakkelijk te gebruiken zijn voor het oplossen van verschillende natuurkundeproblemen.
               </p>
             </div>
           </article>
@@ -133,7 +132,7 @@ export default function Home() {
           <Image
             className="common-properties common-properties-right"
             src={typewriter}
-            alt="A vintage-inspired workspace with a retro typewriter, surrounded by classic design elements and soft, warm lighting."
+            alt="Een vintage-geïnspireerde werkruimte met een retro typemachine, omringd door klassieke designelementen en zachte, warme verlichting."
           />
           <article>
             <div>
@@ -150,13 +149,13 @@ export default function Home() {
         <Image
           className="common-properties common-properties-left"
           src={animal}
-          alt="A calm, minimalistic workspace with soft beige tones, featuring animal-themed art, natural textures, and a computer showing a quiz game interface."
+          alt="Een rustige, minimalistische werkruimte met zachte beige tinten, met dier-thema kunst, natuurlijke texturen en een computer die een quiz-game interface toont."
         />
         <article>
           <div>
             <h1>Dierenraadsels</h1>
             <p className="github">
-              Dive into the delightful world of Animal Guesses — an interactive quiz game that blends curiosity with play. Whether you're recognizing sounds, images, or fun clues, each challenge invites you to guess the animal behind the mystery. Designed for all ages, it’s an engaging way to connect with nature and test your instincts.
+              Duik in de heerlijke wereld van Dierenraadsels — een interactief quizspel dat nieuwsgierigheid combineert met spel. Of je nu geluiden, afbeeldingen of leuke aanwijzingen herkent, elke uitdaging nodigt je uit om het dier achter het mysterie te raden. Ontworpen voor alle leeftijden, is het een boeiende manier om contact te maken met de natuur en je instincten te testen.
             </p>
           </div>
         </article>
@@ -167,7 +166,7 @@ export default function Home() {
         <Image
           className="common-properties common-properties-right"
           src={emf}
-          alt="A stylized, minimalistic visual of a physics simulator, with smooth gradients and subtle textures. The interface shows sliders, a formula box, and vector arrows representing motion, field, and length."
+          alt="Een gestileerde, minimalistische visualisatie van een natuurkunde-simulator, met vloeiende gradiënten en subtiele texturen. De interface toont schuifregelaars, een formulevak en vectorpijlen die beweging, veld en lengte weergeven."
         />
         <article>
           <div>
@@ -183,13 +182,13 @@ export default function Home() {
       <Image
         className="common-properties common-properties-left"
         src={tetris}
-        alt="A stylized, minimalistic visual of a Tetris game interface, set in warm neutral tones. The design showcases falling tetrominoes, a score panel, and level indicators, all within a calm, design-focused workspace."
+        alt="Een gestileerde, minimalistische visualisatie van een Tetris-game interface, in warme neutrale tinten. Het ontwerp toont vallende tetromino's, een scorepaneel en level-indicatoren, allemaal binnen een rustige, design-gerichte werkruimte."
       />
       <article>
         <div>
         <h1>Tetris 2.0.</h1>
         <p className="github">
-          This isn’t just a game about blocks — it’s about timing, space, and the quiet rhythm of decisions. In Tetris, each shape falls like a thought. You turn it, place it, and somehow it fits. Or doesn’t. But the feeling when it does — that’s something. It’s a calm kind of thinking. For those who find peace in patterns, movement in stillness, and clarity in form.
+          Dit is niet zomaar een spel over blokken — het gaat over timing, ruimte en het rustige ritme van beslissingen. In Tetris valt elke vorm als een gedachte. Je draait het, plaatst het, en op de een of andere manier past het. Of niet. Maar het gevoel wanneer het wel past — dat is bijzonder. Het is een kalme manier van denken. Voor degenen die vrede vinden in patronen, beweging in stilstand en helderheid in vorm.
         </p>
         </div>
       </article>
@@ -199,13 +198,13 @@ export default function Home() {
         <Image
           className="common-properties common-properties-right"
           src={periodic}
-          alt="An interactive periodic table rendered in warm, minimal tones. Elements are color-coded and neatly arranged, radiating a sense of calm structure and scientific beauty."
+          alt="Een interactief periodiek systeem weergegeven in warme, minimale tinten. Elementen zijn kleurgecodeerd en netjes gerangschikt, en stralen een gevoel van kalme structuur en wetenschappelijke schoonheid uit."
         />
         <article>
           <div>
-            <h1>The Periodic Table.</h1>
+            <h1>Het Periodiek Systeem</h1>
             <p className="github">
-              Not just rows and columns — it’s a quiet map of everything. Each element has a story: iron in our blood, carbon in our breath, gold in our dreams. This project gives shape to that wonder. You click, you learn, and slowly, you start to see the order in the chaos. It’s about connection. And how everything — even us — fits in.
+              Niet zomaar rijen en kolommen — het is een stille kaart van alles. Elk element heeft een verhaal: ijzer in ons bloed, koolstof in onze adem, goud in onze dromen. Dit project geeft vorm aan dat wonder. Je klikt, je leert, en langzaam begin je de orde in de chaos te zien. Het gaat over verbinding. En hoe alles — zelfs wij — erin past.
             </p>
           </div>
         </article>
@@ -217,13 +216,13 @@ export default function Home() {
           <Image
             className="common-properties common-properties-left"
             src={welcome}
-            alt="A serene and minimalist workspace featuring a desk with a computer displaying abstract designs, surrounded by neutral-toned decor, bookshelves, and warm lighting for a calming atmosphere."
+            alt="Een serene en minimalistische werkruimte met een bureau met een computer die abstracte ontwerpen toont, omringd door decoratie in neutrale tinten, boekenplanken en warme verlichting voor een rustgevende sfeer."
           /> 
         <article>
             <div>
-              <h1>So, have a look around!</h1>
+              <h1>Dus, kijk eens rond!</h1>
               <p className="github">
-                Feel free to explore these projects and see what you think. I'm always learning and growing, and these sites are a reflection of that journey. Who knows what I'll be working on next? Stay tuned!
+                Voel je vrij om deze projecten te verkennen en te zien wat je ervan vindt. Ik ben altijd aan het leren en groeien, en deze sites zijn een weerspiegeling van die reis. Wie weet waar ik de volgende keer aan zal werken? Blijf op de hoogte!
               </p>
             </div>
           </article>

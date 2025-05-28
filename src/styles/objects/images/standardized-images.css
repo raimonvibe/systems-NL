@@ -13,17 +13,12 @@
   transition: transform 0.3s ease;
 }
 
-/* Variants for left/right positioning with flexbox */
-.o-image-left {
+/* Variants for positioning - now all centered vertically */
+.o-image-left, .o-image-right {
   composes: o-image-standard;
-  align-self: flex-start;
-  margin-right: 30px;
-}
-
-.o-image-right {
-  composes: o-image-standard;
-  align-self: flex-start;
-  margin-left: 30px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Certificate image standardization */
@@ -32,14 +27,10 @@
   z-index: 1;
 }
 
-.o-certificate-left {
-  align-self: flex-start;
-  margin-right: 30px;
-}
-
-.o-certificate-right {
-  align-self: flex-start;
-  margin-left: 30px;
+.o-certificate-left, .o-certificate-right {
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Model image standardization */
@@ -48,14 +39,10 @@
   z-index: 1;
 }
 
-.o-model-left {
-  align-self: flex-start;
-  margin-right: 30px;
-}
-
-.o-model-right {
-  align-self: flex-start;
-  margin-left: 30px;
+.o-model-left, .o-model-right {
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Profile image standardization */
@@ -72,26 +59,21 @@
   width: 350px;
 }
 
-.common-properties-left {
-  composes: o-image-left;
-  align-self: flex-start;
-  margin-right: 30px;
+.common-properties-left, .common-properties-right {
+  composes: o-image-standard;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   z-index: 1;
 }
 
-.common-properties-right {
-  composes: o-image-right;
-  align-self: flex-start;
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
-
 .common-properties-left2 {
-  composes: o-image-left;
+  composes: o-image-standard;
   height: auto;
   width: 350px;
-  margin-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
 }
 

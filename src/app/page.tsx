@@ -23,17 +23,17 @@ export default function Home() {
         <Image
           className="common-properties common-properties-left"
           src={systems}
-          alt="A peaceful office with a person working on a laptop, surrounded by abstract system diagrams and a soft, neutral color scheme."
+          alt="Een rustig kantoor met een persoon die op een laptop werkt, omringd door abstracte systeemdiagrammen en een zacht, neutraal kleurenschema."
           priority
         />
         <article>
           <div>
-            <h1>About Systems</h1>
+            <h1>Over Systems</h1>
             <p>
-              Hey there! Welcome to my digital playground. This page is kind of a hub for some of the projects I've been tinkering with. I'm really into systems, coding, and all that good stuff, so this is where I let those interests run wild. Think of it as a glimpse into my brain – a slightly organized glimpse, anyway.
+              Hallo daar! Welkom op mijn digitale speeltuin. Deze pagina is een soort verzamelpunt voor projecten waar ik aan knutsel. Ik ben echt geïnteresseerd in systemen, coderen en al dat soort dingen, dus hier laat ik die interesses de vrije loop. Zie het als een kijkje in mijn brein – een enigszins georganiseerd kijkje, tenminste.
             </p>
             <p>
-              You'll find a few different things here, each with its own story. It's all a work in progress, just like me!
+              Je vindt hier verschillende dingen, elk met een eigen verhaal. Het is allemaal werk in uitvoering, net als ik!
             </p>
           </div>
         </article>
@@ -63,14 +63,14 @@ export default function Home() {
           <Image
             className="common-properties common-properties-right"
             src={stack}
-            alt="A serene setup featuring a developer exploring technology stacks, with layered icons representing frameworks and databases."
+            alt="Een serene opstelling met een ontwikkelaar die technologie-stacks verkent, met gelaagde pictogrammen die frameworks en databases vertegenwoordigen."
           />
           <article>
             <div>
-              <h1>Recommended Stack</h1>
+              <h1>Aanbevolen Stack</h1>
               <p className="github">
-                This project is all about exploring and recommending different technology stacks for web development. 
-                It's a resource I'm building to help developers find the right tools for their projects. 
+                Dit project gaat over het verkennen en aanbevelen van verschillende technologie-stacks voor webontwikkeling. 
+                Het is een hulpmiddel dat ik ontwikkel om ontwikkelaars te helpen de juiste tools voor hun projecten te vinden. 
               </p>
             </div>
           </article>
@@ -88,8 +88,8 @@ export default function Home() {
             <h1>SaaS Code Review</h1>
             <div>
             <p className="github">
-            This is a tool I'm building to help developers analyze and improve the quality of their code. It's all about catching potential problems early on so you can build more robust 
-            and reliable software.  
+            Dit is een tool die ik ontwikkel om ontwikkelaars te helpen de kwaliteit van hun code te analyseren en te verbeteren. Het draait allemaal om het vroegtijdig opsporen van potentiële problemen, zodat je robuustere 
+            en betrouwbaardere software kunt bouwen.  
           </p>
             </div>
           </article>
@@ -104,10 +104,10 @@ export default function Home() {
             alt="A calm, minimal workspace with soft lighting, beige tones, and a sleek desk featuring a blank-screen computer, surrounded by warm decor and physics-inspired wall designs."
           />
           <article>
-            <h1>Velocity Calculator</h1>
+            <h1>Snelheidsberekening</h1>
             <div>
             <p className="github">
-            I recently worked on a project called the Velocity Calculator, designed to make calculating velocity, acceleration, and time as simple as possible. With unit flexibility and a clean interface, it saves time by handling conversions automatically.  
+            Ik heb onlangs gewerkt aan een project genaamd de Snelheidsberekening, ontworpen om het berekenen van snelheid, versnelling en tijd zo eenvoudig mogelijk te maken. Met flexibele eenheden en een overzichtelijke interface bespaart het tijd door automatisch conversies uit te voeren.  
           </p>
             </div>
           </article>
@@ -121,7 +121,7 @@ export default function Home() {
        />
             <article>
             <div>
-              <h1>Physics Formulas Flashcards</h1>
+              <h1>Natuurkunde Formules Flashcards</h1>
               <p className="github">
               In this project, Physics Formulas Cheat Sheet, I’ve created a handy reference guide packed with essential physics formulas that are useful for students, engineers, and anyone interested in physics. The formulas are neatly categorized and presented using LaTeX, making them clear and easy to use for solving a variety of physics problems.
               </p>
@@ -137,9 +137,9 @@ export default function Home() {
           />
           <article>
             <div>
-              <h1>Retro Typewriter Monitor</h1>
+              <h1>Retro Typemachine Monitor</h1>
               <p className="github">
-                Dive into the charm of yesteryears with our Retro Typewriter Monitor project. This unique setup combines the nostalgic feel of a vintage typewriter with the modern functionality of a quiz-based application, creating an engaging and interactive experience. It's not just about reliving the old days but also about appreciating the journey of technology from past to present.
+                Duik in de charme van vervlogen jaren met ons Retro Typemachine Monitor project. Deze unieke opstelling combineert het nostalgische gevoel van een vintage typemachine met de moderne functionaliteit van een quiz-gebaseerde applicatie, wat een boeiende en interactieve ervaring creëert. Het gaat niet alleen om het herbeleven van de oude dagen, maar ook om het waarderen van de reis van technologie van verleden naar heden.
               </p>
             </div>
           </article>
@@ -154,7 +154,7 @@ export default function Home() {
         />
         <article>
           <div>
-            <h1>Animal Guesses</h1>
+            <h1>Dierenraadsels</h1>
             <p className="github">
               Dive into the delightful world of Animal Guesses — an interactive quiz game that blends curiosity with play. Whether you're recognizing sounds, images, or fun clues, each challenge invites you to guess the animal behind the mystery. Designed for all ages, it’s an engaging way to connect with nature and test your instincts.
             </p>
@@ -171,9 +171,9 @@ export default function Home() {
         />
         <article>
           <div>
-            <h1>Motional EMF Simulator</h1>
+            <h1>Bewegings-EMK Simulator</h1>
             <p className="github">
-              Explore the fascinating principles of electromagnetic induction with this interactive simulator. Adjust variables like displacement, magnetic field, length, and time to see how they affect the induced voltage. Great for students, educators, and curious minds who want to visualize how motion creates electricity in a magnetic field.
+              Verken de fascinerende principes van elektromagnetische inductie met deze interactieve simulator. Pas variabelen aan zoals verplaatsing, magnetisch veld, lengte en tijd om te zien hoe ze de geïnduceerde spanning beïnvloeden. Geweldig voor studenten, docenten en nieuwsgierige geesten die willen visualiseren hoe beweging elektriciteit opwekt in een magnetisch veld.
             </p>
           </div>
         </article>

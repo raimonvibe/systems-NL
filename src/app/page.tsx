@@ -82,7 +82,7 @@ export default function Home() {
           <Image
             className="common-properties common-properties-left"
             src={review}
-            alt="A calm workspace with a developer reviewing code on a laptop, surrounded by soft tones and subtle tech elements."
+            alt="Een rustige werkruimte met een ontwikkelaar die code beoordeelt op een laptop, omringd door zachte tinten en subtiele tech-elementen."
           />
           <article>
             <h1>SaaS Code Review</h1>

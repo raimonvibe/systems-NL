@@ -93,6 +93,15 @@ a:hover, a:focus {
   color: var(--color-text-primary);
 }
 
+/* Larger paragraph for intro section */
+.c-paragraph-large {
+  font-family: var(--font-body);
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-primary);
+}
+
 /* Improved text layout for iPad Pro */
 @media (min-width: 1024px) and (max-width: 1366px) {
   .c-article {

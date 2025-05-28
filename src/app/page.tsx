@@ -29,10 +29,10 @@ export default function Home() {
           <article>
             <div>
               <h1>Over Systems</h1>
-              <p className="c-paragraph">
+              <p className="c-paragraph-large">
                 Hallo daar! Welkom op mijn digitale speeltuin. Deze pagina is een soort verzamelpunt voor projecten waar ik aan knutsel. Ik ben echt geïnteresseerd in systemen, coderen en al dat soort dingen, dus hier laat ik die interesses de vrije loop. Zie het als een kijkje in mijn brein – een enigszins georganiseerd kijkje, tenminste.
               </p>
-              <p className="c-paragraph">
+              <p className="c-paragraph-large">
                 Je vindt hier verschillende dingen, elk met een eigen verhaal. Het is allemaal werk in uitvoering, net als ik!
               </p>
             </div>

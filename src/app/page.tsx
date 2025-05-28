@@ -30,7 +30,7 @@ export default function Home() {
           <div>
             <h1>About Systems</h1>
             <p>
-              Hey there! Welcome to my digital playground. This page is kind of a hub for some of the projects I've been tinkering with. I'm really into systems, coding, and all that good stuff, so this is where I let those interests run wild. Think of it as a glimpse into my brain – a slightly organized glimpse, anyway.
+              Hey there! Welcome to my digital playground. (Updated by Devin for testing) This page is kind of a hub for some of the projects I've been tinkering with. I'm really into systems, coding, and all that good stuff, so this is where I let those interests run wild. Think of it as a glimpse into my brain – a slightly organized glimpse, anyway.
             </p>
             <p>
               You'll find a few different things here, each with its own story. It's all a work in progress, just like me!

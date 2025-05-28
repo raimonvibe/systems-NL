@@ -187,7 +187,7 @@ export default function Home() {
       <article>
         <div>
         <h1>Tetris 2.0.</h1>
-        <p className="github">
+        <p className="c-paragraph">
           Dit is niet zomaar een spel over blokken — het gaat over timing, ruimte en het rustige ritme van beslissingen. In Tetris valt elke vorm als een gedachte. Je draait het, plaatst het, en op de een of andere manier past het. Of niet. Maar het gevoel wanneer het wel past — dat is bijzonder. Het is een kalme manier van denken. Voor degenen die vrede vinden in patronen, beweging in stilstand en helderheid in vorm.
         </p>
         </div>

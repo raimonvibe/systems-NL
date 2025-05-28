@@ -33,7 +33,7 @@ export default function Home() {
                 Hallo daar! Welkom op mijn digitale speeltuin. Deze pagina is een soort verzamelpunt voor projecten waar ik aan knutsel. Ik ben echt geïnteresseerd in systemen, coderen en al dat soort dingen, dus hier laat ik die interesses de vrije loop. Zie het als een kijkje in mijn brein – een enigszins georganiseerd kijkje, tenminste.
               </p>
               <p className="c-paragraph">
-                Je vindt hier verschillende dingen, elk met een eigen verhaal. Het is allemaal werk in uitvoering, net als ik!
+                Je vindt hier verschillende dingen, elk met een eigen verhaal.
               </p>
             </div>
           </article>

@@ -10,7 +10,7 @@ import animal from "/public/images/animal.webp";
 import emf from "/public/images/emf.webp";
 import tetris from "/public/images/tetris.webp";
 import periodic from "/public/images/periodic.webp";
-
+import inventoryPro from "/public/images/inventoryPro.webp";
 
 
 export default function Home() {
@@ -212,11 +212,29 @@ export default function Home() {
         </article>
       </div>
 
+        <div className="o-container-standard">
+          <Image
+            className="o-image-standard o-image-left"
+            src={inventoryPro}
+            alt="Een strak vormgegeven interface voor voorraadbeheer met grafieken, artikelenlijsten en analyses in een overzichtelijke werkruimte."
+          />
+          <article>
+            <div>
+              <h1>Inventory Pro</h1>
+              <p className="c-paragraph">
+                Inventory Pro is een modern systeem voor voorraadbeheer, ontworpen om voorraadtracking, leverancierscoördinatie en het registreren van transacties te vereenvoudigen.
+                Gebouwd met een krachtige tech stack en een intuïtieve interface, stelt het teams in staat om hun middelen efficiënt te beheren en beslissingen te nemen op basis van data.
+              </p>
+            </div>
+          </article>
+        </div>
+
+
 
 
         <div className="o-container-standard">
           <Image
-            className="o-image-standard o-image-left"
+            className="o-image-standard o-image-right"
             src={welcome}
             alt="Een serene en minimalistische werkruimte met een bureau met een computer die abstracte ontwerpen toont, omringd door decoratie in neutrale tinten, boekenplanken en warme verlichting voor een rustgevende sfeer."
           /> 

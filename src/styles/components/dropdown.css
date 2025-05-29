@@ -181,21 +181,21 @@
 @media (max-width: 600px) {
   .c-dropdown {
     font-size: 60px;
-    width: 180px; /* Wider for better text display */
+    width: 160px; /* Reduced width as requested */
     top: 60px;
     right: 20px;
   }
 
   .c-dropdown__trigger {
-    width: 179px; /* Match dropdown width */
-    font-size: 18px; /* Reduced from 20px */
+    width: 159px; /* Match dropdown width */
+    font-size: 16px; /* Further reduced from 18px */
     padding: 15px 5px;
     text-align: center;
   }
 
   .c-dropdown__item {
-    width: 179px; /* Match dropdown width */
-    font-size: 14px; /* Reduced from 16px */
+    width: 159px; /* Match dropdown width */
+    font-size: 13px; /* Further reduced from 14px */
     text-align: center;
     padding: 8px 5px;
   }
@@ -223,21 +223,21 @@
 /* Additional mobile improvements for better readability */
 @media (max-width: 480px) {
   .c-dropdown {
-    width: 200px; /* Wider for smallest screens */
+    width: 140px; /* Reduced width as requested */
   }
   
   .c-dropdown__trigger {
-    width: 199px; /* Match dropdown width */
-    font-size: 16px; /* Smaller text for trigger */
+    width: 139px; /* Match dropdown width */
+    font-size: 14px; /* Further reduced text size */
   }
   
   .c-dropdown__item {
-    width: 199px; /* Match dropdown width */
-    font-size: 13px; /* Reduced from 18px for smaller text */
+    width: 139px; /* Match dropdown width */
+    font-size: 12px; /* Further reduced text size */
   }
   
   .c-dropdown__item a {
-    padding: 10px 8px; /* Slightly reduced padding */
+    padding: 10px 6px; /* Slightly reduced padding */
     font-weight: 500; /* Maintain bold for readability */
   }
 }

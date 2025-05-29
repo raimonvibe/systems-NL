@@ -37,7 +37,7 @@
 
 /* Dropdown links styling */
 .c-dropdown__item {
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
   padding: 0 5px;
   text-align: center;
   height: 0;

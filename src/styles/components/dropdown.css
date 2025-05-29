@@ -193,7 +193,7 @@
 
   .c-dropdown__item {
     width: 149px;
-    font-size: 15px;
+    font-size: 14px;
   }
   
   .c-dropdown:hover .c-dropdown__item:not(:empty) {

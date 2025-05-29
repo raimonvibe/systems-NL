@@ -114,8 +114,9 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal; /* Changed from nowrap to allow text wrapping on mobile */
   text-overflow: ellipsis;
+  padding: 0 8px; /* Added consistent padding */
 }
 
 /* Special style for 'About Me' and 'My Resume' */
@@ -189,21 +190,44 @@
     width: 149px;
     font-size: 20px;
     padding: 15px 5px;
+    text-align: center;
   }
 
   .c-dropdown__item {
     width: 149px;
     font-size: 16px;
+    text-align: center;
+    padding: 8px 5px;
+  }
+  
+  .c-dropdown__item a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.4;
+    word-wrap: break-word;
   }
   
   .c-dropdown:hover .c-dropdown__item:not(:empty) {
     height: auto;
-    min-height: 40px;
+    min-height: 44px; /* Increase for better touch targets */
   }
 
   .c-dropdown:hover .c-dropdown__item:nth-child(4),
   .c-dropdown:hover .c-dropdown__item:nth-child(8) {
-    min-height: 40px;
-    padding: 5px 0;
+    min-height: 44px;
+    padding: 8px 5px;
+  }
+}
+
+/* Additional mobile improvements for better readability */
+@media (max-width: 480px) {
+  .c-dropdown__item {
+    font-size: 18px; /* Slightly larger for better readability */
+  }
+  
+  .c-dropdown__item a {
+    padding: 12px 8px; /* More generous padding for easier tapping */
+    font-weight: 500; /* Slightly bolder for better readability */
   }
 }

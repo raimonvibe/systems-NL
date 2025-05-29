@@ -215,7 +215,7 @@ export default function Home() {
         <div className="o-container-standard">
           <Image
             className="o-image-standard o-image-left"
-            src={inventoryPro}
+            src={InventoryPro}
             alt="Een strak vormgegeven interface voor voorraadbeheer met grafieken, artikelenlijsten en analyses in een overzichtelijke werkruimte."
           />
           <article>

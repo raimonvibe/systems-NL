@@ -188,14 +188,14 @@
 
   .c-dropdown__trigger {
     width: 159px; /* Match dropdown width */
-    font-size: 16px; /* Smaller text for better mobile display */
+    font-size: 14px; /* Further reduced text size */
     padding: 15px 5px;
     text-align: center;
   }
 
   .c-dropdown__item {
     width: 159px; /* Match dropdown width */
-    font-size: 13px; /* Smaller text for better mobile display */
+    font-size: 11px; /* Further reduced text size */
     text-align: center;
     padding: 8px 5px;
   }
@@ -228,12 +228,12 @@
   
   .c-dropdown__trigger {
     width: 139px; /* Match dropdown width */
-    font-size: 14px; /* Smaller text for trigger */
+    font-size: 12px; /* Further reduced text size */
   }
   
   .c-dropdown__item {
     width: 139px; /* Match dropdown width */
-    font-size: 12px; /* Smaller text for better mobile display */
+    font-size: 10px; /* Further reduced text size */
   }
   
   .c-dropdown__item a {

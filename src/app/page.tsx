@@ -10,7 +10,7 @@ import animal from "/public/images/animal.webp";
 import emf from "/public/images/emf.webp";
 import tetris from "/public/images/tetris.webp";
 import periodic from "/public/images/periodic.webp";
-import inventoryPro from "/public/images/inventoryPro.webp";
+import InventoryPro from "/public/images/InventoryPro.webp";
 
 
 export default function Home() {

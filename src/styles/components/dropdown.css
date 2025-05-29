@@ -181,21 +181,21 @@
 @media (max-width: 600px) {
   .c-dropdown {
     font-size: 60px;
-    width: 150px;
+    width: 180px; /* Wider for better text display */
     top: 60px;
     right: 20px;
   }
 
   .c-dropdown__trigger {
-    width: 149px;
-    font-size: 20px;
+    width: 179px; /* Match dropdown width */
+    font-size: 18px; /* Reduced from 20px */
     padding: 15px 5px;
     text-align: center;
   }
 
   .c-dropdown__item {
-    width: 149px;
-    font-size: 16px;
+    width: 179px; /* Match dropdown width */
+    font-size: 14px; /* Reduced from 16px */
     text-align: center;
     padding: 8px 5px;
   }
@@ -222,12 +222,22 @@
 
 /* Additional mobile improvements for better readability */
 @media (max-width: 480px) {
+  .c-dropdown {
+    width: 200px; /* Wider for smallest screens */
+  }
+  
+  .c-dropdown__trigger {
+    width: 199px; /* Match dropdown width */
+    font-size: 16px; /* Smaller text for trigger */
+  }
+  
   .c-dropdown__item {
-    font-size: 18px; /* Slightly larger for better readability */
+    width: 199px; /* Match dropdown width */
+    font-size: 13px; /* Reduced from 18px for smaller text */
   }
   
   .c-dropdown__item a {
-    padding: 12px 8px; /* More generous padding for easier tapping */
-    font-weight: 500; /* Slightly bolder for better readability */
+    padding: 10px 8px; /* Slightly reduced padding */
+    font-weight: 500; /* Maintain bold for readability */
   }
 }

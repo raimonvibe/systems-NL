@@ -11,6 +11,7 @@ import emf from "/public/images/emf.webp";
 import tetris from "/public/images/tetris.webp";
 import periodic from "/public/images/periodic.webp";
 import InventoryPro from "/public/images/InventoryPro.webp";
+import google from "/public/images/google.webp";
 
 
 export default function Home() {
@@ -228,13 +229,29 @@ export default function Home() {
             </div>
           </article>
         </div>
-
+          
+          <div className="o-container-standard">
+            <Image
+              className="o-image-standard o-image-right"
+              src={google}
+              alt="Een gebruiksvriendelijke Google Login EDU-interface weergegeven op een laptop, met warme belichting en educatieve UI-elementen in een moderne werkruimte."
+            />
+            <article>
+              <div>
+                <h1>Google Login EDU</h1>
+                <p className="c-paragraph">
+                  Google Login EDU is een authenticatiesysteem speciaal ontwikkeld voor onderwijsplatforms, waarmee veilige en eenvoudige toegang via Google-accounts mogelijk wordt. 
+                  Ontworpen met oog voor gebruiksgemak en privacy, stelt het docenten en studenten in staat om snel en veilig in te loggen, met inachtneming van moderne datastandaarden.
+                </p>
+              </div>
+            </article>
+          </div>
 
 
 
         <div className="o-container-standard">
           <Image
-            className="o-image-standard o-image-right"
+            className="o-image-standard o-image-left"
             src={welcome}
             alt="Een serene en minimalistische werkruimte met een bureau met een computer die abstracte ontwerpen toont, omringd door decoratie in neutrale tinten, boekenplanken en warme verlichting voor een rustgevende sfeer."
           /> 

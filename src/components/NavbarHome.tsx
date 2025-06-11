@@ -26,6 +26,7 @@ const NavbarHome: React.FC = () => {
     { href: "https://tetris2.0.raimonvibe.com/", label: "Tetris 2.0", target: "_blank" }, // Naam
     { href: "https://periodic-table.raimonvibe.com/", label: "Periodiek Systeem", target: "_blank" }, 
     { href: "https://inventory-pro.raimonvibe.com/", label: "Inventory Pro", target: "_blank" }, 
+    { href: "  https://google-login-edu.raimonvibe.com/", label: "Google Knop", target: "_blank" }, 
   ];
 
   return (

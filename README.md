@@ -4,8 +4,7 @@
 
 Welcome to the Systems repository! This project contains various technical and software systems designed to enhance productivity, simplify workflows, and provide useful tools for developers.
 
-🌐 **Visit the Live Webpage**  
-Check out the live project at [https://systems.raimonvibe.com/](https://systems.raimonvibe.com/)
+
 
 ## 🛠️ What is This Project About?
 
